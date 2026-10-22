@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "holdingsintel": {
+      "url": "https://mcp.holdingsintel.com/sse"
+    }
+  }
+}

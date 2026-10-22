@@ -1,0 +1,39 @@
+{
+  "name": "holdingsintel",
+  "description": "Your AI assistant, wired into smart money. See what hedge funds, insiders, activists and members of Congress are doing in any stock, from their SEC and STOCK Act filings, with a Smart Money Verdict per stock and fund.",
+  "version": "2.0.0",
+  "website": "https://www.holdingsintel.com",
+  "documentation": "https://www.holdingsintel.com/mcp",
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://mcp.holdingsintel.com/sse"
+    }
+  ],
+  "tools": [
+    "analyze_stock",
+    "analyze_fund",
+    "find_signals",
+    "compare_funds",
+    "clone_fund",
+    "search_filers",
+    "search_securities",
+    "list_quarters",
+    "get_congress_trades",
+    "analyze_politician",
+    "get_insider_trades",
+    "get_activist_stakes",
+    "get_fund_holdings",
+    "get_stock_holders",
+    "get_13f_activity",
+    "list_saved_lists",
+    "get_saved_list",
+    "create_saved_list",
+    "rename_saved_list",
+    "delete_saved_list",
+    "add_saved_list_item",
+    "update_saved_list_item_notes",
+    "remove_saved_list_item",
+    "get_my_mcp_status"
+  ]
+}
